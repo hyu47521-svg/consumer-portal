@@ -1,0 +1,21 @@
+# Secrets: never commit these
+config.local.php
+.env
+*.env
+
+# Uploaded complaint documents (private user data)
+uploads/
+storage/
+
+# Dependencies (if you add Composer or npm later)
+vendor/
+node_modules/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

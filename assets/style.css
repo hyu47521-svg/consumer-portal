@@ -94,3 +94,15 @@ textarea{min-height:140px}
   .section{padding:40px 0}
   body{font-size:16px}
             }
+/* ===== Step 2: alerts, badges, tables, layout helpers ===== */
+.alert{padding:12px 14px;border-radius:8px;margin-bottom:16px;font-size:.95rem}
+.alert-error{background:#fef3f2;color:var(--danger);border:1px solid #fecdca}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;font-size:.85rem;background:#eaf2fc;color:var(--primary);font-weight:600}
+.badge-resolved{background:#ecfdf3;color:var(--success)}
+.badge-closed{background:#f2f4f7;color:var(--muted)}
+.btn-block{width:100%}
+.page-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:12px;border-bottom:1px solid var(--border);white-space:nowrap}
+th{color:var(--muted);font-weight:600}
